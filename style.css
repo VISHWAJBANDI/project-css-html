@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: #666666;
+  color: #666666;
+  padding: 80px;
+  
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+}
+.col-left-parent-1 {
+  margin-top: -5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+  width: 600px;
+  height: 700px;
+  background-color: white;
+}
+.col-left-parent-1 p {
+  width: 300px;
+  font-family: Garamond, serif;
+  font-weight: 100;
+  text-align: center;
+  align-self: center;
+  font-size: 20px;
+  margin-bottom: 20%;
+}
+.child-1 {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: -30%;
+  margin-left: -10%;
+  height: 150px;
+  background-color: rgb(130, 59, 59);
+}
+.col-left-parent-2 {
+  margin-left: 2%;
+  width: 600px;
+}
+.col-left-parent-3 {
+  margin-left: -2%;
+  margin-bottom: -10%;
+  background-color: rgb(169, 93, 245);
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+  z-index: 1;
+}
+.col-left-parent-3 p {
+  font-family: Garamond, serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+  width: 350px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+.col-left-parent-3 button {
+  margin-left: 50%;
+  padding: 20px;
+  letter-spacing: 1px;
+  background-color: white;
+  color: rgb(174, 102, 247);
+  border: none;
+  cursor: pointer;
+}
+.col-left-parent-4 {
+  z-index: -1;
+  margin-left: 2%;
+  width: 600px;
+}
+.col-left-qr {
+  display: flex;
+  color: white;
+  gap: 10px;
+  margin-left: 2%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.col-left-qr span {
+  font-family: Garamond, serif;
+  font-weight: lighter;
+  font-weight: 100;
+  font-size: 20px;
+}
+.col-right-parent-1 {
+  z-index: 1;
+  margin-left: 2%;
+  width: 600px;
+}
+.col-right-parent-2 {
+  margin-left: 10%;
+  width: 600px;
+  height: 500px;
+  background-color: lightpink;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.col-right-parent-3 {
+  margin-left: 1%;
+  width: 600px;
+}
+.col-right-parent-4 {
+  margin-top: -4%;
+  z-index: 1;
+  width: 600px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.contact-form h3 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.contact-form form {
+  margin-top: 10%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.contact-form input {
+  height: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.contact-form textarea {
+  height: 150px;
+  margin-bottom: 5px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+.contact-form button {
+  margin-top: 3%;
+  margin-left: 50%;
+  padding: 20px;
+  background-color: #9280be;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.col-right-parent-5 {
+  background-color: rgb(159, 82, 236);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+  height: 300px;
+  margin-left: 50px;
+  margin-bottom: -20%;
+}
+.col-right-parent-5 span {
+  width: 400px;
+  text-align: center;
+  font-family: Garamond, serif;
+}
